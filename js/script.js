@@ -1,4 +1,4 @@
-let size = 40;
+let size = 16;
 const canvas = 360;
 if (localStorage.getItem("size")) {
     size = localStorage.getItem("size");
@@ -31,7 +31,7 @@ const squares = document.querySelectorAll('.square');
 
 squares.forEach((sq) => {
     sq.addEventListener('mouseover', () => {
-        sq.style.cssText = `height: ${360/size}px; width: ${360/size}px; background-color: white;`;
+        sq.style.cssText = `height: ${canvas/size}px; width: ${canvas/size}px; background-color: white;`;
     })
 });
 
