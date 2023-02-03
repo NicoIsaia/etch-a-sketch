@@ -1,0 +1,19 @@
+:root {
+    --size: 360px;
+}
+
+#container {
+    display: flex;
+    border: 1px solid red;
+    /*align-items: stretch;
+    align-content: stretch;*/
+    flex-wrap: wrap;
+    /*width: var(--size);
+    height: var(--size);*/
+}
+
+.square {
+    margin: 0px;
+    border: 0px solid blue;
+    flex: 0 0 1;
+}
