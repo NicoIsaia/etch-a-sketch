@@ -1,5 +1,40 @@
+/* With this I create a variable in CSS
 :root {
     --size: 360px;
+}*/
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+/*.holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around;
+}*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-bottom: 10px;
+    size: 100px;
+    color: whitesmoke;
+    background-color: cornflowerblue;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+
 }
 
 #container {
