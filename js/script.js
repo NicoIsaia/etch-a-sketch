@@ -1,6 +1,6 @@
 // Default pixel size
 let size = 16;
-// Default canvas size
+// Keep canvas in a variable for easier testing
 const canvas = 360;
 // localStorage lets me save data in the browser
 // so I won't lose it when reloading
@@ -8,6 +8,7 @@ if (localStorage.getItem("size")) {
     size = localStorage.getItem("size");
 }
 
+// Function that makes random numbers for the RGB colors
 function randomNumber() {
     return Math.floor(Math.random() * 255);
 }
